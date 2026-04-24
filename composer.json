@@ -1,21 +1,19 @@
 {
-  "name": "tenkco/auth-package",
-  "description": "Reusable authorization and authentication module for MVC projects",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "tenkco",
-      "email": "sykvl@gmail.com"
-    }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": "^7.4 | ^8.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Tenkco\\Auth\\": "src/"
-    }
-  }
+    "name": "tenkco/auth-package",
+    "description": "Reusable authorization and authentication module for MVC projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tenkco\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tenkco",
+            "email": "sytnikkv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
